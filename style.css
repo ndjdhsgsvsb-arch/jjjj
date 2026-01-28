@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(creative-workspace.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    background-color: black;
+    padding: 20px;
+}
+.logo{
+    float: left;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 40px;  
+    
+}
+.Main-nav{
+    float: right;
+}
+.Main-nav ul li{
+    display: inline-block;
+    padding-top: 25px;   
+}
+.Main-nav ul li a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size:15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:300;
+    letter-spacing: 1px;
+    transition: all 200ms;
+    
+}
+.Main-nav ul li a:hover{
+    color: rgb(173, 94, 34);
+}
+.Hero{
+    width: 80%;
+    margin: 200px auto 0 auto;
+    text-align: center;
+}
+.Hero h1{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(223, 223, 223);
+    letter-spacing: 5px;
+}
+.Hero hr{
+    width: 60%;
+    height: 4px;
+    border-style: solid;
+    color:rgb(173, 94, 34);
+    background-color: rgb(173, 94, 34);
+    margin: 20px auto;
+}
+.Hero p{
+    font-size: 20px;
+    margin: 30px auto;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.Hero a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color:rgb(173, 94, 34);
+    font-weight: bold;
+    letter-spacing: 1px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Hero a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.656);
+}
+.Design{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(228, 226, 226);
+}
+.Design h2{
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.Design p{
+    font-size: 20px;
+    color: #828282;
+    text-align: justify;
+    margin: 30px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+.icons{
+    padding: 50px;  
+}
+.row{
+    width:90% ;
+    margin: auto;
+}
+.icon{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+}
+.icon img{
+    
+    padding: 22px;
+    font-size: 36px;
+    margin-bottom: 15px;
+    width: 150px;
+}
+.icon h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: black;
+}
+.icon p{
+    font-size: 18px;
+    color: #828282;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.gallary{
+    padding: 50px;
+}
+.info{
+    text-align: center;
+}
+.info h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+.info p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #828282;
+    margin-bottom: 25px;
+}
+.x-row{
+    width: 100%;
+}
+.x-row .item{
+    width: 31%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+.x-row .item img{
+    width: 100%;
+}
+.x-row .item{
+    width: 31%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+.item:hover{
+    background-color: #ac460f;
+}
+.contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(WhatsApp\ Image\ 2025-10-09\ at\ 18.00.20_6ac58942.jpg);
+    background-size: cover;
+    height: 600px;
+    padding: 1px 0;
+    position: relative;
+}
+.contact-info{
+    text-align: center;
+    margin-top: 100px;
+}
+.contact-info h2{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+.contact-info p{
+    color: #828282;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+.contact-form{
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+.contact-form input[type=text],input[type=email],textarea{
+    width: 600px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    float: left;
+}
+input[type=checkbox]{
+    margin-right: 20px
+}
+input[type=submit]{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(138, 94, 13);
+}
+.footer{
+    padding: 20px;
+    text-align: right;
+    margin-right: 180px;
+}
+.footer a{
+    text-decoration: none;
+    margin: 0.5px;
+}
